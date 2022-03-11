@@ -1,0 +1,76 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	margin: 0 auto;
+    background-color: black;
+    padding-top: 10%;
+}
+
+.style1 {
+    margin: 0 auto;
+    color: white;
+    font-family: "Alfa Slab One";
+    font-size: 55px;
+    text-decoration: underline;
+}
+
+.style2 {
+    margin: 0 auto;
+    color: whitesmoke;
+    font-family: "Alfa Slab One";
+    font-size: 30px;
+}
+
+animasi {
+    transition: all 0.1s;
+    -webkit-trantition: all0.1s;
+}
+.tombol {
+    background-color: #9e4242;
+    border-bottom: 5px solid #3a1717;
+    border-bottom: 0px -2px #3a1717;
+    text-align: center;
+    padding: 10px 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+	float: left;
+	font-family: Pacifico;
+	font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.tombol:active{
+    transform: translate(100px, 52px);
+    -webkit-transform: translate(0px, 5px);
+    border-bottom: 1px solid;
+}
+
+.style3 {
+    background-color: black;
+    font: Jost;
+    font-size: 25px;
+    padding-top: 10%;
+}
+
+#style4 {
+    margin-top: 120px;
+    color:white;
+    text-align: center;
+    font-family: Unica One;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px white;
+    
+}
+
+#style5 {
+    color: #D26466;
+    text-align: center;
+    font-family: Black Han Sans;
+    font-size: 100px;
+    text-shadow: 1px 1px 1px white;
+    
+}

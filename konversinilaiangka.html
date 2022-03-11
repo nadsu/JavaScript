@@ -1,0 +1,68 @@
+<HTML>
+<HEAD>
+	<TITLE> Konversi Nilai Angka </TITLE>
+	<link rel="stylesheet" type="text/css" href="styletombol.css">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Secular+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Pacifico&family=Secular+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Jost:wght@100&family=Pacifico&family=Secular+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Jost:wght@100&family=Pacifico&family=Secular+One&family=Unica+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Han+Sans&family=Jost:wght@100&family=Monoton&family=Pacifico&family=Secular+One&family=Unica+One&display=swap" rel="stylesheet">
+	
+	
+
+	
+</HEAD>
+<SCRIPT language="JavaScript">
+	function formJava() {
+		var bilangan= prompt("Masukkan Angka (0-100): ");
+		var hasil = "";
+
+		if (bilangan >=0 && bilangan <=40) {
+		hasil = "E"
+		}
+
+		else if (bilangan >=41 && bilangan <=55) {
+		hasil = "D"
+		}
+		
+		else if (bilangan >=56 && bilangan <=60) {
+		hasil = "C"
+		}
+
+		else if (bilangan >=61 && bilangan <=65) {
+		hasil = "BC"
+		}
+
+		else if (bilangan >=66 && bilangan <=70) {
+		hasil = "B"
+		}
+
+		else if (bilangan >=71 && bilangan <=80) {
+		hasil = "AB"
+		}
+
+		else if (bilangan >=81 && bilangan <=100) {
+		hasil = "A"
+		}
+		
+		else {
+		hasil = "Mohon perhatikan kembali ketentuan dan masukkan nilai yang sesuai"
+		}
+
+		document.getElementById("style4").innerHTML = "NILAI YANG ANDA MASUKKAN TERMASUK GOLONGAN";
+		document.getElementById("style5").innerHTML = hasil;
+	}
+	
+</SCRIPT>
+<BODY>
+	<p class="style1"> SISTEM KONVERSI </p>
+	<p class="style2"> Angka ke Huruf </p>
+	<div >
+		<button class="tombol" onclick="formJava()"> Mulai Konversi</button>
+	</div>
+	<div id="style4"></div>
+	<div id="style5"></div>
+</BODY>
+
+</HTML>
