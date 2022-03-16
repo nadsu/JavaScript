@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div {
+    width: 600px;
+    height: 325px;
+    background-color: #a4b48c;
+    margin: 60px auto;
+    border-radius: 20px;
+
+}
+
+.kotakdalam {
+    width: 600px;
+    height: 115px;
+    background-color: whitesmoke;
+    border-radius: 0px;
+    border-top: 3px solid #5d814a ;
+    border-bottom: 3px solid #5d814a;
+}
+
+.style1 {
+    font-family: 'Alata', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.style2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.tombol {
+    width: 45px;
+    height: 45px;
+    color: whitesmoke;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    background-color: #77815c;
+    border-radius: 20px;
+    border: black;
+    padding: 4px 4px;
+    border: 2px solid black;
+}
+
+.textbox {
+    width: 300px;
+    height: 35px;
+    background-color: #5d814a;
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+
+}
+
+.textbox2 {
+    width: 335px;
+    height: 70px;
+    background-color: #5d814a;
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+}
